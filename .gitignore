@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+## Ignore virtual environment named 'sign'
+sign/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+model/*.h5
+model/*.npy
+
+# Dataset (avoid pushing large files)
+dataset/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# VSCode and system files
+.vscode/
+.DS_Store
+*.idea/
